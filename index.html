@@ -1,29 +1,1226 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="mobile-web-app-capable" content="yes">
+<html class="no-js vlt-is--homepage vlt-is--footer-fixed" lang="zh-CN">
+  
+  <head>
+    <meta charset="utf-8">
+    <title>腾讯云TCI-创作之星</title>
+    <meta name="description" content="Personal CV/Resume HTML5 Template">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- 微信浏览器兼容性优化 -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="msapplication-tap-highlight" content="no">
-    <title>TCI - 个人简历/作品集</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/svg" href="assets/img/root/favicon.svg">
+    <!--Framework-->
+    <link rel="stylesheet" href="assets/css/framework/bootstrap.min.css">
+    <!--Fonts-->
+    <link rel="stylesheet" href="assets/fonts/Gilroy/style.css">
+    <!--Icons-->
+    <link rel="stylesheet" href="assets/fonts/LineIcons/Pro-Regular/font-css/LineIcons.css">
+    <!--Plugins-->
     <link rel="stylesheet" href="assets/css/vlt-plugins.min.css">
+    <!--Style-->
     <link rel="stylesheet" href="assets/css/vlt-main.min.css">
+    <!--Custom-->
     <link rel="stylesheet" href="assets/css/custom.css">
+    <!--Star Sky Effect-->
     <link rel="stylesheet" href="assets/css/star-sky.css">
-</head>
-<body>
-    <div class="vlt-site-preloader"></div>
-    <div class="vlt-site-wrapper">
+    <link rel="stylesheet" href="assets/css/custom-sections.css">
+
+    <script src="assets/scripts/star-sky.js"></script>
+
+  </head>
+  
+  <body class=" animsition">
+    <!--Header-->
+    <header class="vlt-header vlt-header--default">
+      <div class="vlt-navbar vlt-navbar--main vlt-navbar--transparent vlt-navbar--sticky">
         <div class="vlt-navbar-background"></div>
-        <!-- 其他页面内容 -->
+        <div class="vlt-navbar-inner">
+          <div class="vlt-navbar-inner--left">
+            <!--Logo-->
+            <a class="vlt-navbar-logo" href="/">
+              <img src="assets/img/root/logo.svg" alt="TCI" /></a>
+          </div>
+          <div class="vlt-navbar-inner--center">
+            <div class="container">
+              <nav class="vlt-default-menu__navigation">
+                <!--Navigation-->
+                <ul class="sf-menu">
+                  <li data-menuanchor="Home">
+                    <a href="#Home">首页</a></li>
+                  <li data-menuanchor="Community">
+                    <a href="#Community">工作人员</a></li>
+                  <li data-menuanchor="Members">
+                    <a href="#Members">成员列表</a></li>
+                  <li data-menuanchor="Repository">
+                    <a href="#Repository">代码仓库</a></li>
+
+                  <li data-menuanchor="Vip">
+                    <a href="#Vip">专属权益</a></li>
+                  <li data-menuanchor="News">
+                    <a href="#News">活动动态</a></li>
+                  <li data-menuanchor="About">
+                    <a href="#About">关于我们</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="vlt-navbar-inner--right">
+            <div class="d-flex align-items-center">
+              <!--Contacts-->
+              <div class="vlt-navbar-contacts">
+                <a href="https://doc.weixin.qq.com/forms/AJEAIQdfAAoAfQACAaJAKoFWCNSpJKQhf" target="_blank">申请加入</a></div>
+              <!--Menu Burger-->
+              <a class="vlt-menu-burger js-offcanvas-menu-open" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round">
+                  <line x1="3" y1="12" x2="21" y2="12" />
+                  <line x1="3" y1="6" x2="21" y2="6" />
+                  <line x1="3" y1="18" x2="21" y2="18" /></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Offcanvas Menu-->
+    <div class="vlt-offcanvas-menu">
+      <div class="vlt-offcanvas-menu__header">
+        <!--Locales-->
+        <!--Logo-->
+        <img src="assets/img/root/logo.svg" alt="TCI" style="height:28px" />
+        <!--Menu Burger-->
+        <a class="vlt-menu-burger vlt-menu-burger--opened js-offcanvas-menu-close" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+            <defs />
+            <path d="M18 6L6 18M6 6l12 12" /></svg>
+        </a>
+      </div>
+      <nav class="vlt-offcanvas-menu__navigation">
+        <!--Navigation-->
+        <ul class="sf-menu">
+          <li data-menuanchor="Home">
+            <a href="#Home">首页</a></li>
+          <li data-menuanchor="Community">
+            <a href="#Community">工作人员</a></li>
+          <li data-menuanchor="Members">
+            <a href="#Members">成员列表</a></li>
+          <li data-menuanchor="Repository">
+            <a href="#Repository">代码仓库</a></li>
+
+          <li data-menuanchor="Vip">
+            <a href="#Vip">专属权益</a></li>
+          <li data-menuanchor="News">
+            <a href="#News">活动动态</a></li>
+          <li data-menuanchor="About">
+            <a href="#About">关于我们</a></li>
+        </ul>
+      </nav>
+      <div class="vlt-offcanvas-menu__footer">
+        <!--Copyright-->
+        <div class="vlt-offcanvas-menu__copyright">
+          <p>&copy; 2025 Tencent Cloud Creator Initiative</p>
+        </div>
+      </div>
     </div>
+    <!--Site Overlay-->
+    <div class="vlt-site-overlay"></div>
+    <!--Fixed socials-->
+    <div class="vlt-fixed-socials">
+      <a class="vlt-social-icon vlt-social-icon--style-1" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI2NDU4OTExOQ==#wechat_redirect">
+        <i class="lnir-wechat"></i>
+      </a>
+      <a class="vlt-social-icon vlt-social-icon--style-1" href="https://cnb.cool/tci">
+        <i class="lnir-brakckets"></i>
+      </a>
+      <a class="vlt-social-icon vlt-social-icon--style-1" href="https://cloud.tencent.com/developer/program/tci">
+        <i class="lnir-heart-filled"></i>
+      </a>
+    </div>
+    <!--Main-->
+    <main class="vlt-main">
+      <!--Fullpage Slider-->
+      <div class="vlt-fullpage-slider" data-loop-top="" data-loop-bottom="" data-speed="800">
+        <!--Home-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="Home">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <!--Ken Burn Effect-->
+              <div class="vlt-section__ken-burn-background has-mobile-image">
+                <canvas id="bg-home" class="star-canvas" style="position: absolute; top: 0; left: 0; z-index: 1;"></canvas>
+                <img src="assets/img/home.jpg" alt="" loading="lazy" style="position: relative; z-index: 0;" /></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-7">
+                    <div class="vlt-gap-160"></div>
+                    <!--Animated Block-->
+                    <div class="vlt-animated-block" data-animation-name="fadeInDownSm" style="animation-delay:.9s;animation-duration:700ms;">
+                      <h4 class="text-right">Developer Community</h4></div>
+                    <div class="vlt-gap-15"></div>
+                    <!--Animated Block-->
+                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.3s;animation-duration:700ms;">
+                      <img src="assets/img/root/logo1.svg" alt="TCI" /></div>
+                    <div class="vlt-gap-200"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Community-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="Community">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <!--Member-->
+              <div class="vlt-section__projects-background">
+                <img src="assets/img/Community.jpg" alt="" loading="lazy" /></div>
+              <div class="container">
+                <div class="vlt-animated-block animate__animated animate__fadeInUpSm" data-animation-name="fadeInUpSm" style="animation-delay:0s;animation-duration:700ms">
+                  <div class="d-block d-md-flex align-items-center justify-content-between">
+                    <h3>工作人员</h3>
+                    <div class="vlt-gap-30--sm"></div>
+                  </div>
+                </div>
+                <!--Animated Block-->
+                <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s;animation-duration:700ms">
+                  <!--Content slider-->
+                  <div class="vlt-content-slider" data-navigation-anchor=".vlt-council-anchor" data-effect="fade" data-gap="" data-loop="" data-speed="" data-autoplay="" data-autoplay-speed="" data-slides-centered="" data-slide-settings="{}" data-free-mode="" data-slider-offset="" data-mousewheel="">
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <!--Product-->
+                          <article class="vlt-project row">
+                            <div class="col-lg-4 col-sm-6 my-3">
+                              <div class="vlt-animated-block animate__animated animate__fadeInUpSm" data-animation-name="fadeInUpSm" style="animation-delay:.1s;animation-duration:700ms;">
+                                <!--Blog Item-->
+                                <article class="vlt-post vlt-post--masonry team-card-single">
+                                  <div class="vlt-post-border">
+                                    <span class="top"></span>
+                                    <span class="right"></span>
+                                    <span class="bottom"></span>
+                                    <span class="left"></span>
+                                  </div>
+                                  <div class="vlt-post-media">
+                                    <img src="assets/img/community/01.png" alt="" loading="lazy" /></div>
+                                  <div class="content">
+                                    <p>社区运营</p>
+                                    <br />
+                                    <h4>廖泽敏</h4></div>
+                                  <div class="vlt-post-content">
+                                    <div class="vlt-post-excerpt" style="height: 250px;">腾讯云 | TCI 负责人
+                                      <p>/</p>
+                                    </div>
+                                  </div>
+                                </article>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 my-3">
+                              <div class="vlt-animated-block animate__animated animate__fadeInUpSm" data-animation-name="fadeInUpSm" style="animation-delay:.1s;animation-duration:700ms;">
+                                <!--Blog Item-->
+                                <article class="vlt-post vlt-post--masonry team-card-single">
+                                  <div class="vlt-post-border">
+                                    <span class="top"></span>
+                                    <span class="right"></span>
+                                    <span class="bottom"></span>
+                                    <span class="left"></span>
+                                  </div>
+                                  <div class="vlt-post-media">
+                                    <img src="qqimg/operation/attachment/900005/20241211-afdcb393.png" alt="" loading="lazy" /></div>
+                                  <div class="content">
+                                    <p>官方运营</p>
+                                    <br />
+                                    <h4>李镇业</h4></div>
+                                  <div class="vlt-post-content">
+                                    <div class="vlt-post-excerpt" style="height: 250px;">腾讯云 | 运营负责人
+                                      <p>/</p>
+                                    </div>
+                                  </div>
+                                </article>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 my-3">
+                              <div class="vlt-animated-block animate__animated animate__fadeInUpSm" data-animation-name="fadeInUpSm" style="animation-delay:.1s;animation-duration:700ms;">
+                                <!--Blog Item-->
+                                <article class="vlt-post vlt-post--masonry team-card-single">
+                                  <div class="vlt-post-border">
+                                    <span class="top"></span>
+                                    <span class="right"></span>
+                                    <span class="bottom"></span>
+                                    <span class="left"></span>
+                                  </div>
+                                  <div class="vlt-post-media">
+                                    <img src="qqimg/operation/attachment/900005/20241211-dd777183.png" alt="" loading="lazy" /></div>
+                                  <div class="content">
+                                    <p>官方运营</p>
+                                    <br />
+                                    <h4>李彬</h4></div>
+                                  <div class="vlt-post-content">
+                                    <div class="vlt-post-excerpt" style="height: 250px;">腾讯云 | 社区/会员小程序负责人
+                                      <p>/</p>
+                                    </div>
+                                  </div>
+                                </article>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 my-3">
+                              <div class="vlt-animated-block animate__animated animate__fadeInUpSm" data-animation-name="fadeInUpSm" style="animation-delay:.1s;animation-duration:700ms;">
+                                <!--Blog Item-->
+                                <article class="vlt-post vlt-post--masonry team-card-single">
+                                  <div class="vlt-post-border">
+                                    <span class="top"></span>
+                                    <span class="right"></span>
+                                    <span class="bottom"></span>
+                                    <span class="left"></span>
+                                  </div>
+                                  <div class="vlt-post-media">
+                                    <img src="qqimg/operation/attachment/900005/20241217-5b0c19fe.png" alt="" loading="lazy" /></div>
+                                  <div class="content">
+                                    <p>官方运营</p>
+                                    <br />
+                                    <h4>李舒颖</h4></div>
+                                  <div class="vlt-post-content">
+                                    <div class="vlt-post-excerpt" style="height: 250px;">开发者社区征文活动负责人
+                                      <p>/</p>
+                                    </div>
+                                  </div>
+                                </article>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 my-3">
+                              <div class="vlt-animated-block animate__animated animate__fadeInUpSm" data-animation-name="fadeInUpSm" style="animation-delay:.1s;animation-duration:700ms;">
+                                <!--Blog Item-->
+                                <article class="vlt-post vlt-post--masonry team-card-single">
+                                  <div class="vlt-post-border">
+                                    <span class="top"></span>
+                                    <span class="right"></span>
+                                    <span class="bottom"></span>
+                                    <span class="left"></span>
+                                  </div>
+                                  <div class="vlt-post-media">
+                                    <img src="qqimg/operation/attachment/900005/20241211-cfce10b6.png" alt="" loading="lazy" /></div>
+                                  <div class="content">
+                                    <p>官方运营</p>
+                                    <br />
+                                    <h4>丽琴</h4></div>
+                                  <div class="vlt-post-content">
+                                    <div class="vlt-post-excerpt" style="height: 250px;">有bug就来修bug
+                                      <p>/</p>
+                                    </div>
+                                  </div>
+                                </article>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 my-3">
+                              <div class="vlt-animated-block animate__animated animate__fadeInUpSm" data-animation-name="fadeInUpSm" style="animation-delay:.1s;animation-duration:700ms;">
+                                <!--Blog Item-->
+                                <article class="vlt-post vlt-post--masonry team-card-single">
+                                  <div class="vlt-post-border">
+                                    <span class="top"></span>
+                                    <span class="right"></span>
+                                    <span class="bottom"></span>
+                                    <span class="left"></span>
+                                  </div>
+                                  <div class="vlt-post-media">
+                                    <img src="qqimg/operation/attachment/900005/20241211-9452f38b.png" alt="" loading="lazy" /></div>
+                                  <div class="content">
+                                    <p>官方运营</p>
+                                    <br />
+                                    <h4>小熊</h4></div>
+                                  <div class="vlt-post-content">
+                                    <div class="vlt-post-excerpt" style="height: 250px;">运营
+                                      <p>/</p>
+                                    </div>
+                                  </div>
+                                </article>
+                              </div>
+                            </div>
+                          </article>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Slider controls-->
+                  <div class="vlt-slider-controls vlt-slider-controls--style-2 vlt-council-anchor">
+                    <div class="vlt-swiper-pagination"></div>
+                    <div class="vlt-swiper-button-prev">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 45">
+                        <defs />
+                        <path fill="currentColor" fill-rule="evenodd" d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z" clip-rule="evenodd" /></svg>
+                    </div>
+                    <div class="vlt-swiper-button-next">
+                      <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 45">
+                        <defs />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z" fill="currentColor" /></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Members-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="Members">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <!--Member-->
+              <div class="vlt-section__projects-background">
+                <img src="assets/img/Members.jpg" alt="" loading="lazy" /></div>
+              <div class="container">
+                <div class="vlt-animated-block animate__animated animate__fadeInUpSm" data-animation-name="fadeInUpSm" style="animation-delay:0s;animation-duration:700ms">
+                  <div class="d-block d-md-flex align-items-center justify-content-between">
+                    <h3>成员列表</h3>
+                    <div class="vlt-gap-30--sm"></div>
+                  </div>
+                </div>
+                <!--Animated Block-->
+                <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s;animation-duration:700ms">
+                  <!--Content slider-->
+                  <div class="vlt-content-slider" data-navigation-anchor=".vlt-member-anchor" data-effect="fade" data-gap="" data-loop="" data-speed="" data-autoplay="" data-autoplay-speed="" data-slides-centered="" data-slide-settings="{}" data-free-mode="" data-slider-offset="" data-mousewheel="">
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <!--Product-->
+                          <article class="vlt-project row">
+                            <div class="col-lg-3 col-sm-6 my-3">
+                              <div class="team-card-single">
+                                <div class="thumb">
+                                  <img src="assets/img/Members/01.jpg" alt="" />
+                                </div>
+                                <div class="content">
+                                  <p>云用户体验工程师</p>
+                                  <br />
+                                  <h4>程博</h4></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 my-3">
+                              <div class="team-card-single">
+                                <div class="thumb">
+                                  <img src="assets/img/Members/02.jpg" alt="" />
+                                </div>
+                                <div class="content">
+                                  <p>Java后端开发工程师</p>
+                                  <br />
+                                  <h4>方凯</h4></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 my-3">
+                              <div class="team-card-single">
+                                <div class="thumb">
+                                  <img src="assets/img/Members/03.jpg" alt="" />
+                                </div>
+                                <div class="content">
+                                  <p>资深软件工程师</p>
+                                  <br />
+                                  <h4>不惑</h4></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 my-3">
+                              <div class="team-card-single">
+                                <div class="thumb">
+                                  <img src="assets/img/Members/04.jpg" alt="" />
+                                </div>
+                                <div class="content">
+                                  <p>个人开发者</p>
+                                  <br />
+                                  <h4>张文伟</h4></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 my-3">
+                              <div class="team-card-single">
+                                <div class="thumb">
+                                  <img src="assets/img/Members/05.jpg" alt="" />
+                                </div>
+                                <div class="content">
+                                  <p>软件开发工程师</p>
+                                  <br />
+                                  <h4>岳贵超</h4></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 my-3">
+                              <div class="team-card-single">
+                                <div class="thumb">
+                                  <img src="assets/img/Members/06.jpg" alt="" />
+                                </div>
+                                <div class="content">
+                                  <p>全栈开发工程师</p>
+                                  <br />
+                                  <h4>杨帅</h4></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 my-3">
+                              <div class="team-card-single">
+                                <div class="thumb">
+                                  <img src="assets/img/Members/07.jpg" alt="" />
+                                </div>
+                                <div class="content">
+                                  <p>数据开发工程师</p>
+                                  <br />
+                                  <h4>熊文韬</h4></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 my-3">
+                              <div class="team-card-single">
+                                <div class="thumb">
+                                  <img src="assets/img/Members/08.jpg" alt="" />
+                                </div>
+                                <div class="content">
+                                  <p>首席解决方案架构师</p>
+                                  <br />
+                                  <h4>李捷</h4></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 my-3">
+                              <div class="team-card-single">
+                                <div class="thumb">
+                                  <img src="assets/img/Members/09.jpg" alt="" />
+                                </div>
+                                <div class="content">
+                                  <p>腾讯游戏社交算法研究员</p>
+                                  <br />
+                                  <h4>林文清</h4></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 my-3">
+                              <div class="team-card-single">
+                                <div class="thumb">
+                                  <img src="assets/img/Members/10.jpg" alt="" />
+                                </div>
+                                <div class="content">
+                                  <p>资深全栈工程师</p>
+                                  <br />
+                                  <h4>刘光智</h4></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 my-3">
+                              <div class="team-card-single">
+                                <div class="thumb">
+                                  <img src="assets/img/Members/11.jpg" alt="" />
+                                </div>
+                                <div class="content">
+                                  <p>高级后端开发工程师</p>
+                                  <br />
+                                  <h4>李卓(码事漫谈)</h4></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 my-3">
+                              <div class="team-card-single">
+                                <div class="thumb">
+                                  <img src="assets/img/Members/12.jpg" alt="" />
+                                </div>
+                                <div class="content">
+                                  <p>前端资深专家</p>
+                                  <br />
+                                  <h4>陈政</h4></div>
+                              </div>
+                            </div>
+                          </article>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Slider controls-->
+                  <div class="vlt-slider-controls vlt-slider-controls--style-2 vlt-member-anchor">
+                    <div class="vlt-swiper-pagination"></div>
+                    <div class="vlt-swiper-button-prev">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 45">
+                        <defs />
+                        <path fill="currentColor" fill-rule="evenodd" d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z" clip-rule="evenodd" /></svg>
+                    </div>
+                    <div class="vlt-swiper-button-next">
+                      <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 45">
+                        <defs />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z" fill="currentColor" /></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Repository-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="Repository">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <!--Repository Background-->
+              <div class="vlt-section__projects-background">
+                <img src="assets/img/Repository.jpg" alt="" loading="lazy" />
+                <img src="assets/img/Repository.jpg" alt="" loading="lazy" /></div>
+              <div class="container">
+                <div class="vlt-animated-block animate__animated animate__fadeInUpSm" data-animation-name="fadeInUpSm" style="animation-delay:0s;animation-duration:700ms">
+                  <div class="d-block d-md-flex align-items-center justify-content-between">
+                    <h3>代码仓库</h3>
+                    <div class="vlt-gap-30--sm"></div>
+                  </div>
+                </div>
+                <!--Animated Block-->
+                <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s;animation-duration:700ms">
+                  <!--Content slider-->
+                  <div class="vlt-content-slider" data-navigation-anchor=".vlt-repository-anchor" data-effect="fade" data-gap="" data-loop="" data-speed="" data-autoplay="" data-autoplay-speed="" data-slides-centered="" data-slide-settings="{}" data-free-mode="" data-slider-offset="" data-mousewheel="">
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <!--Repository Grid-->
+                          <article class="vlt-project row">
+                            <div class="col-lg-4 col-md-6 my-3">
+                              <div class="vlt-animated-block animate__animated animate__fadeInUpSm" data-animation-name="fadeInUpSm" style="animation-delay:.1s;animation-duration:700ms;">
+                                <!--Repository Item-->
+                                <div class="modern-repo-card">
+                                  <div class="repo-card-header">
+                                    <div class="repo-icon">
+                                      <i class="lnir-github-original"></i>
+                                    </div>
+                                    <div class="repo-status">
+                                      <span class="status-badge active">活跃</span>
+                                    </div>
+                                  </div>
+                                  <div class="repo-card-body">
+                                    <h4 class="repo-name">xiaozhi-sharp</h4>
+                                    <p class="repo-desc">使用 C# 语言编写的 “小智SDK”，并提供了ConsoleApp 应用示例。</p>
+                                    <div class="repo-tech-stack">
+                                      <span class="tech-tag C#">C#</span>
+                                      <span class="tech-tag html">html</span>
+                                      <span class="tech-tag css">css</span>
+                                    </div>
+                                  </div>
+                                  <div class="repo-card-footer">
+                                    <div class="repo-metrics">
+                                      <div class="metric">
+                                        <i class="lnir-star"></i>
+                                        <span>94</span>
+                                      </div>
+                                      <div class="metric">
+                                        <i class="lnir-code-alt"></i>
+                                        <span>21</span>
+                                      </div>
+                                      <div class="metric">
+                                        <i class="lnir-eye"></i>
+                                        <span>2.3k</span>
+                                      </div>
+                                    </div>
+                                    <div class="repo-actions">
+                                      <a href="https://github.com/zhulige/xiaozhi-sharp" target="_blank" class="action-btn primary">
+                                        <i class="lnir-github-original"></i>
+                                        <span>GitHub</span>
+                                      </a>
+                                      <a href="#" target="_blank" class="action-btn secondary">
+                                        <i class="lnir-cloud"></i>
+                                        <span>CNB</span>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 my-3">
+                              <div class="vlt-animated-block animate__animated animate__fadeInUpSm" data-animation-name="fadeInUpSm" style="animation-delay:.2s;animation-duration:700ms;">
+                                <!--Repository Item-->
+                                <div class="modern-repo-card">
+                                  <div class="repo-card-header">
+                                    <div class="repo-icon">
+                                      <i class="lnir-github-original"></i>
+                                    </div>
+                                    <div class="repo-status">
+                                      <span class="status-badge active">活跃</span>
+                                    </div>
+                                  </div>
+                                  <div class="repo-card-body">
+                                    <h4 class="repo-name">flea-framework</h4>
+                                    <p class="repo-desc">Flea框架，取名跳蚤，源于作者Huazie的跳蚤市场毕设项目，第一版代码更是从中而来。另外提到跳蚤，自然想到它的小个头和无处不在的特点，这也是Flea框架一直努力的目标，成为一款小巧易用的Java应用基础开发框架。</p>
+                                    <div class="repo-tech-stack">
+                                      <span class="tech-tag javascript">Java</span>
+                                    </div>
+                                  </div>
+                                  <div class="repo-card-footer">
+                                    <div class="repo-metrics">
+                                      <div class="metric">
+                                        <i class="lnir-star"></i>
+                                        <span>23</span>
+                                      </div>
+                                      <div class="metric">
+                                        <i class="lnir-code-alt"></i>
+                                        <span>4</span>
+                                      </div>
+                                      <div class="metric">
+                                        <i class="lnir-eye"></i>
+                                        <span>1.1k</span>
+                                      </div>
+                                    </div>
+                                    <div class="repo-actions">
+                                      <a href="https://github.com/huazie/flea-framework" target="_blank" class="action-btn primary">
+                                        <i class="lnir-github-original"></i>
+                                        <span>GitHub</span>
+                                      </a>
+                                      <a href="#" target="_blank" class="action-btn secondary">
+                                        <i class="lnir-cloud"></i>
+                                        <span>CNB</span>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 my-3">
+                              <div class="vlt-animated-block animate__animated animate__fadeInUpSm" data-animation-name="fadeInUpSm" style="animation-delay:.3s;animation-duration:700ms;">
+                                <!--Repository Item-->
+                                <div class="modern-repo-card">
+                                  <div class="repo-card-header">
+                                    <div class="repo-icon">
+                                      <i class="lnir-github-original"></i>
+                                    </div>
+                                    <div class="repo-status">
+                                      <span class="status-badge active">活跃</span>
+                                    </div>
+                                  </div>
+                                  <div class="repo-card-body">
+                                    <h4 class="repo-name">hexo-theme-diversity</h4>
+                                    <p class="repo-desc">博客多样性，一款多主题自由切换的Hexo主题</p>
+                                    <div class="repo-tech-stack">
+                                      <span class="tech-tag javascript">JavaScript</span>
+                                      <span class="tech-tag stylus">Stylus</span>
+                                      <span class="tech-tag ejs">EJS</span>
+                                      <span class="tech-tag html">HTML</span>
+                                    </div>
+                                  </div>
+                                  <div class="repo-card-footer">
+                                    <div class="repo-metrics">
+                                      <div class="metric">
+                                        <i class="lnir-star"></i>
+                                        <span>24</span>
+                                      </div>
+                                      <div class="metric">
+                                        <i class="lnir-code-alt"></i>
+                                        <span>4</span>
+                                      </div>
+                                      <div class="metric">
+                                        <i class="lnir-eye"></i>
+                                        <span>1.1k</span>
+                                      </div>
+                                    </div>
+                                    <div class="repo-actions">
+                                      <a href="https://github.com/huazie/hexo-theme-diversity" target="_blank" class="action-btn primary">
+                                        <i class="lnir-github-original"></i>
+                                        <span>GitHub</span>
+                                      </a>
+                                      <a href="#" target="_blank" class="action-btn secondary">
+                                        <i class="lnir-cloud"></i>
+                                        <span>CNB</span>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                        </div>
+                      </div>
+                    </div>
+                    <!--Slider controls-->
+                    <div class="vlt-slider-controls vlt-slider-controls--style-2 vlt-repository-anchor">
+                      <div class="vlt-swiper-pagination"></div>
+                      <div class="vlt-swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 45">
+                          <defs />
+                          <path fill="currentColor" fill-rule="evenodd" d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z" clip-rule="evenodd" /></svg>
+                      </div>
+                      <div class="vlt-swiper-button-next">
+                        <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 45">
+                          <defs />
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z" fill="currentColor" /></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!--Vip-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="Vip">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <!--VIP Background-->
+              <div class="vlt-section__projects-background">
+                <img src="assets/img/vip.jpg" alt="" loading="lazy" /></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-6">
+                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s;animation-duration:700ms">
+                      <div class="vlt-experience-block">
+                        <span class="vlt-experience-block__number">12
+                          <span class="has-accent-color">.</span></span>
+                        <h5 class="vlt-experience-block__title">Exclusive Rights
+                          <br />专属权益</h5></div>
+                    </div>
+                    <div class="vlt-gap-100--lg"></div>
+                  </div>
+                  <div class="col-xl-6 col-md-8">
+                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s;animation-duration:700ms">
+                      <h3>专属权益</h3></div>
+                    <div class="privilege-grid">
+                      <div class="privilege-item">
+                        <div class="privilege-icon">👥</div>
+                        <h5>实名社群</h5>
+                        <p>纯度100%技术自媒体圈</p>
+                      </div>
+                      <div class="privilege-item">
+                        <div class="privilege-icon">🏆</div>
+                        <h5>荣誉认证</h5>
+                        <p>官方身份认证/入驻礼包/优秀成员嘉奖盛会</p>
+                      </div>
+                      <div class="privilege-item">
+                        <div class="privilege-icon">🌆</div>
+                        <h5>城市聚会</h5>
+                        <p>城市圈子聚会/本地/跨行业成员交流</p>
+                      </div>
+                      <div class="privilege-item">
+                        <div class="privilege-icon">📊</div>
+                        <h5>资源动态</h5>
+                        <p>全网最新技术动态/技术创作活动</p>
+                      </div>
+                      <div class="privilege-item">
+                        <div class="privilege-icon">⭐</div>
+                        <h5>优先商单</h5>
+                        <p>优先获腾讯云等新媒体商单合作机会</p>
+                      </div>
+                      <div class="privilege-item">
+                        <div class="privilege-icon">🔧</div>
+                        <h5>产品体验</h5>
+                        <p>优先体验腾讯云产品直联一线产品团队</p>
+                      </div>
+                      <div class="privilege-item">
+                        <div class="privilege-icon">📈</div>
+                        <h5>能力提升</h5>
+                        <p>技术创作特训营专属坐席</p>
+                      </div>
+                      <div class="privilege-item">
+                        <div class="privilege-icon">🤝</div>
+                        <h5>闭门交流</h5>
+                        <p>百万流量博主成长经验交流</p>
+                      </div>
+                      <div class="privilege-item">
+                        <div class="privilege-icon">💎</div>
+                        <h5>陪伴成长</h5>
+                        <p>专业编辑运营伙伴实时支持响应</p>
+                      </div>
+                      <div class="privilege-item">
+                        <div class="privilege-icon">🚀</div>
+                        <h5>臻享流量</h5>
+                        <p>社区专栏独家流量扶持</p>
+                      </div>
+                      <div class="privilege-item">
+                        <div class="privilege-icon">📺</div>
+                        <h5>影响力打造</h5>
+                        <p>成员列表独家专访与新闻稿件曝光</p>
+                      </div>
+                      <div class="privilege-item">
+                        <div class="privilege-icon">🎤</div>
+                        <h5>大会分享</h5>
+                        <p>优先成为腾讯云系列活动讲师嘉宾</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--News-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="News">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <!--Ken Burn Effect-->
+              <div class="vlt-section__ken-burn-background">
+                <img src="assets/img/news.jpg" alt="" loading="lazy" /></div>
+              <div class="container">
+                <div class="vlt-gap-70"></div>
+                <!--Animated Block-->
+                <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s;animation-duration:700ms">
+                  <div class="d-block d-md-flex align-items-center justify-content-between">
+                    <h3>活动动态</h3>
+                    <div class="vlt-gap-30--sm"></div>
+                  </div>
+                </div>
+                <!--Animated Block-->
+                <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s;animation-duration:700ms">
+                  <!--Content slider-->
+                  <div class="vlt-content-slider" data-navigation-anchor=".vlt-education-anchor" data-effect="" data-gap="120" data-loop="" data-speed="" data-autoplay="" data-autoplay-speed="" data-slides-centered="" data-slide-settings="{}" data-free-mode="" data-slider-offset="" data-mousewheel="">
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <!--Timeline Item-->
+                          <div class="vlt-timeline-item">
+                            <a class="row" href="https://cloud.tencent.com/developer/salon/salon-2340" target="_blank">
+                              <div class="col-xl-4">
+                                <img src="assets/img/news/02.jpg" alt="" loading="lazy" /></div>
+                              <div class="col-xl-8">
+                                <span class="vlt-timeline-item__date">2025-04-18 14:30-17:00</span>
+                                <h5 class="vlt-timeline-item__title">技术人如何用内容创作打造职业护城河？</h5>
+                                <p class="vlt-timeline-item__text">在技术迭代加速的当下，内容创作正在成为技术人提升竞争力与职业安全感的“新路径”。你是否曾苦恼于技术分享无人问津、个人价值难以凸显，或职业发展遭遇瓶颈？本次活动聚焦“打造职业护城河”，邀请深谙创作之道的技术大咖分享从起步到突破的实战经验，助你通过内容创作构筑职业壁垒，开启个人成长第二曲线！</p></div>
+                            </a>
+                          </div>
+                          <div class="vlt-timeline-item">
+                            <a class="row" href="https://cloud.tencent.com/developer/salon/salon-2328" target="_blank">
+                              <div class="col-xl-4">
+                                <img src="assets/img/news/01.jpg" alt="" loading="lazy" /></div>
+                              <div class="col-xl-8">
+                                <span class="vlt-timeline-item__date">2025-03-09 14:30-17:00</span>
+                                <h5 class="vlt-timeline-item__title">DeepSeek × 技术创作者：10倍速构建专业影响力</h5>
+                                <p class="vlt-timeline-item__text">随着AI技术爆发式发展，DeepSeek已成为内容创作、效率提升与个人IP构建的“加速器”。技术创作者也正面临前所未有的机遇与挑战，内容生成焦虑、效率瓶颈、IP成长等困境，本次直播聚焦“10倍速构建专业影响力”，邀请行业大咖分享实战经验，助你抢占AI红利窗口！</p></div>
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!--Slider controls-->
+                  <div class="vlt-slider-controls vlt-slider-controls--style-2 vlt-education-anchor">
+                    <div class="vlt-swiper-pagination"></div>
+                    <div class="vlt-swiper-button-prev">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 45">
+                        <defs />
+                        <path fill="currentColor" fill-rule="evenodd" d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z" clip-rule="evenodd" /></svg>
+                    </div>
+                    <div class="vlt-swiper-button-next">
+                      <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 45">
+                        <defs />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z" fill="currentColor" /></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--About-->
+        <!--Section-->
+        <div class="vlt-section pp-scrollable" data-anchor="About">
+          <div class="vlt-section__vertical-align">
+            <div class="vlt-section__content">
+              <!--Ken Burn Effect-->
+              <div class="vlt-section__ken-burn-background">
+                <img src="assets/img/about.jpg" alt="" loading="lazy" /></div>
+              <div class="container-fluid">
+                <div class="row align-items-center min-vh-100">
+                  <!-- 左侧轮播图 -->
+                  <div class="col-lg-7 col-md-6">
+                    <div class="vlt-animated-block" data-animation-name="fadeInLeftSm" style="animation-delay:0s;animation-duration:700ms">
+                      <div class="d-block d-md-none mb-3">
+                        <div class="has-accent-color text-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 75 75" style="height: 50px">
+                            <defs />
+                            <path fill="currentColor" d="M25 0C16.9271 0 10.7422 2.14844 6.44531 6.44531 2.14844 10.7422 0 16.9271 0 25v50h31.25V25H12.5c0-4.4271.9766-7.6172 2.9297-9.5703C17.3828 13.4766 20.5729 12.5 25 12.5V0zm43.75 0c-8.0729 0-14.2578 2.14844-18.5547 6.44531C45.8984 10.7422 43.75 16.9271 43.75 25v50H75V25H56.25c0-4.4271.9766-7.6172 2.9297-9.5703C61.1328 13.4766 64.3229 12.5 68.75 12.5V0z" /></svg>
+                          <h4 class="mt-2 mb-3">智联未来·云启新程</h4>
+                        </div>
+                      </div>
+                      <div class="community-carousel-container">
+                        <div class="community-carousel" id="communityCarousel">
+                          <div class="carousel-slide active">
+                            <img src="assets/img/carousel/01.jpg" alt="01" loading="lazy" />
+                          </div>
+                          <div class="carousel-slide">
+                            <img src="assets/img/carousel/02.jpg" alt="02" loading="lazy" />
+                          </div>
+                          <div class="carousel-slide">
+                            <img src="assets/img/carousel/03.jpg" alt="03" loading="lazy" />
+                          </div>
+                          <div class="carousel-slide">
+                            <img src="assets/img/carousel/04.jpg" alt="04" loading="lazy" />
+                          </div>
+                          <div class="carousel-slide">
+                            <img src="assets/img/carousel/05.jpg" alt="05" loading="lazy" />
+                          </div>
+                          <div class="carousel-slide">
+                            <img src="assets/img/carousel/06.jpg" alt="06" loading="lazy" />
+                          </div>
+                          <div class="carousel-slide">
+                            <img src="assets/img/carousel/07.jpg" alt="07" loading="lazy" />
+                          </div>
+                          <div class="carousel-slide">
+                            <img src="assets/img/carousel/08.jpg" alt="08" loading="lazy" />
+                          </div>
+                          <div class="carousel-slide">
+                            <img src="assets/img/carousel/09.jpg" alt="09" loading="lazy" />
+                          </div>
+                          <div class="carousel-slide">
+                            <img src="assets/img/carousel/10.jpg" alt="10" loading="lazy" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- 右侧内容 -->
+                  <div class="col-lg-5 col-md-6">
+                    <div class="vlt-animated-block" data-animation-name="fadeInRightSm" style="animation-delay:.2s;animation-duration:700ms">
+                      <div class="has-accent-color mb-4 d-none d-md-block">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 75 75" style="height: 60px">
+                          <defs />
+                          <path fill="currentColor" d="M25 0C16.9271 0 10.7422 2.14844 6.44531 6.44531 2.14844 10.7422 0 16.9271 0 25v50h31.25V25H12.5c0-4.4271.9766-7.6172 2.9297-9.5703C17.3828 13.4766 20.5729 12.5 25 12.5V0zm43.75 0c-8.0729 0-14.2578 2.14844-18.5547 6.44531C45.8984 10.7422 43.75 16.9271 43.75 25v50H75V25H56.25c0-4.4271.9766-7.6172 2.9297-9.5703C61.1328 13.4766 64.3229 12.5 68.75 12.5V0z" /></svg>
+                        <h3 class="mt-3 mb-4">智探前沿·云创无界</h3>
+                      </div>
+                      
+                      <!--Content slider-->
+                      <div class="vlt-content-slider" data-navigation-anchor=".vlt-testimonials-anchor" data-effect="" data-gap="" data-loop="true" data-speed="" data-autoplay="false" data-autoplay-speed="5000" data-slides-centered="" data-slide-settings="{}" data-free-mode="" data-slider-offset="" data-mousewheel="">
+                        <div class="swiper-container">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <!--Testimonial-->
+                              <div class="vlt-testimonial">
+                                <h5 class="vlt-testimonial__name mb-4">组织概要</h5>
+                                <div class="vlt-testimonial__text">
+                                  <p>腾讯云创作之星（Tencent Cloud Creator Initiative，简称腾讯云TCI）是腾讯云开发者社区支持并运营的技术内容创作者荣誉计划。该计划旨在表彰和激励在云计算、人工智能、大数据等技术领域内，具有卓越创作影响力的个人或团队。</p>
+                                  <p>通过这一计划，腾讯云不仅为优秀创作者提供平台与资源支持，还帮助他们更好地展示创意与创新精神。作为腾讯云对技术内容创作者的认可，TCI通过不断扩大创作者群体，推动云计算等前沿技术的普及与发展。</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <!--Testimonial-->
+                              <div class="vlt-testimonial">
+                                <h5 class="vlt-testimonial__name mb-4">加入条件</h5>
+                                <div class="vlt-testimonial__text">
+                                  <p>• 在技术领域有深入研究或实践经验，乐于沉淀和分享技术经验和见解</p>
+                                  <p>• 拥有在技术领域的专业背景，尤其是在云计算、人工智能等领域的应用经验</p>
+                                  <p>• 有丰富的技术创作经验，能够为技术社区贡献高质量的原创内容</p>
+                                  <p>• 具备一定的影响力，能够引领或推动技术话题的讨论和传播</p>
+                                  <p>• 对于技术的未来发展有独到的见解，并愿意与他人分享相关知识</p>
+                                  <p>• 认同腾讯云创作之星项目的价值观，并支持云技术的普及与创新</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <!--Testimonial-->
+                              <div class="vlt-testimonial">
+                                <h5 class="vlt-testimonial__name mb-4">其他说明</h5>
+                                <div class="vlt-testimonial__text">
+                                  <p>腾讯云创作之星是腾讯云为在技术领域具有非凡影响力的内容创作者和传播者颁发的荣誉认证。</p>
+                                  <p>该认证旨在感谢并鼓励用创作力量推动云计算等先进技术的传播。</p>
+                                  <p>加入我们，共同推动技术普惠的加速度。</p>
+                                  <div class="mt-4">
+                                    <a href="https://cloud.tencent.com/developer/program/tci" target="_blank" class="btn btn-outline-light btn-sm">了解更多</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!--Slider controls-->
+                      <div class="vlt-slider-controls vlt-slider-controls--style-1 vlt-testimonials-anchor mt-4">
+                        <div class="vlt-swiper-button-prev">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 45">
+                            <defs />
+                            <path fill="currentColor" fill-rule="evenodd" d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z" clip-rule="evenodd" /></svg>
+                        </div>
+                        <div class="vlt-swiper-button-next">
+                          <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 45">
+                            <defs />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z" fill="currentColor" /></svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Progress Bar-->
+        <div class="vlt-fullpage-slider-progress-bar">
+          <span></span>
+        </div>
+      </div>
+    </main>
+    <!--Footer-->
+    <footer class="vlt-footer vlt-footer--default vlt-footer--fixed d-none d-lg-flex">
+      <div class="vlt-footer-copyright">
+        <p>&copy; 2025 Tencent Cloud Creator Initiative</p>
+        <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2024105063号-2</a>&nbsp;·
+        <a href="https://cloud.tencent.com/developer/program/tci" target="_blank">本站由开发者社群共建并维护</a></div>
+      <!-- <div class="vlt-language-switcher">
+        <b class="mx-4">服务赞助 >></b>
+        <a href="https://cloud.tencent.com/product/lighthouse" target="_blank">轻量应用服务器</a>
+        <a href="https://cloud.tencent.com/product/teo" target="_blank">边缘安全加速</a>
+        <a href="https://cloud.tencent.com/product/ssl" target="_blank">SSL 证书</a>
+        <a href="https://cloud.tencent.com/product/dns" target="_blank">DNS 解析</a>
+        <a href="https://cnb.cool/tdp" target="_blank">云原生构建</a></div> -->
+    </footer>
+    <!--Libs-->
     <script src="assets/vendors/jquery-3.5.1.min.js"></script>
     <script src="assets/scripts/vlt-plugins.min.js"></script>
     <script src="assets/scripts/vlt-helpers.js"></script>
     <script src="assets/scripts/vlt-controllers.min.js"></script>
-    <script src="assets/scripts/star-sky.js"></script>
-</body>
+    <!--VIP Mobile Click Handler-->
+    <script>$(document).ready(function() {
+        // 检测是否为移动设备
+        function isMobileDevice() {
+          return window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+        }
+
+        // VIP卡片点击事件处理
+        if (isMobileDevice()) {
+          $('.privilege-item').on('click',
+          function(e) {
+            e.preventDefault();
+
+            // 移除其他卡片的active状态
+            $('.privilege-item').not(this).removeClass('active');
+
+            // 切换当前卡片的active状态
+            $(this).toggleClass('active');
+          });
+
+          // 点击其他区域关闭所有卡片
+          $(document).on('click',
+          function(e) {
+            if (!$(e.target).closest('.privilege-item').length) {
+              $('.privilege-item').removeClass('active');
+            }
+          });
+        }
+        
+        // 社区轮播图自动切换功能
+        function initCommunityCarousel() {
+          const carousel = $('#communityCarousel');
+          const slides = carousel.find('.carousel-slide');
+          const totalSlides = slides.length;
+          
+          if (totalSlides === 0) return;
+          
+          let currentIndex = 0;
+          let usedIndices = [];
+          
+          function getRandomIndex() {
+            // 如果所有图片都已显示过，重置已使用列表
+            if (usedIndices.length >= totalSlides) {
+              usedIndices = [];
+            }
+            
+            let randomIndex;
+            do {
+              randomIndex = Math.floor(Math.random() * totalSlides);
+            } while (usedIndices.includes(randomIndex));
+            
+            usedIndices.push(randomIndex);
+            return randomIndex;
+          }
+          
+          function showSlide(index) {
+            slides.removeClass('active');
+            slides.eq(index).addClass('active');
+          }
+          
+          function nextSlide() {
+            const nextIndex = getRandomIndex();
+            showSlide(nextIndex);
+            currentIndex = nextIndex;
+          }
+          
+          // 随机选择初始图片
+          const initialIndex = Math.floor(Math.random() * totalSlides);
+          showSlide(initialIndex);
+          usedIndices.push(initialIndex);
+          
+          // 每3.5秒切换到随机图片
+          setInterval(nextSlide, 3500);
+        }
+        
+        // 初始化轮播图
+        initCommunityCarousel();
+        
+        // 页面切换性能优化
+        function optimizePageTransitions() {
+            // 预加载关键资源
+            const sections = document.querySelectorAll('.vlt-section');
+            sections.forEach(section => {
+                const images = section.querySelectorAll('img[loading="lazy"]');
+                images.forEach(img => {
+                    // 移除懒加载，提前加载关键图片
+                    if (img.closest('.vlt-section[data-anchor="Home"], .vlt-section[data-anchor="Community"], .vlt-section[data-anchor="Members"]')) {
+                        img.removeAttribute('loading');
+                    }
+                });
+            });
+            
+            // 优化动画触发时机
+            const animatedBlocks = document.querySelectorAll('.vlt-animated-block');
+            animatedBlocks.forEach(block => {
+                block.style.willChange = 'transform, opacity';
+            });
+        }
+        
+        // 页面加载完成后执行优化
+        optimizePageTransitions();
+        
+        // 微信浏览器特殊处理
+         function handleWeChatBrowser() {
+             var ua = navigator.userAgent.toLowerCase();
+             if (ua.indexOf('micromessenger') !== -1) {
+                 // 添加微信浏览器标识类
+                 $('html').addClass('wechat-browser');
+                 
+                 // 防止微信浏览器的重复加载问题
+                 var hasLoaded = sessionStorage.getItem('wechat_page_loaded');
+                 if (hasLoaded) {
+                     // 如果已经加载过，直接显示页面
+                     $('body').removeClass('animsition');
+                     $('.animsition-loading-2').remove();
+                 } else {
+                     // 标记页面已加载
+                     sessionStorage.setItem('wechat_page_loaded', 'true');
+                 }
+                
+                // 优化微信浏览器中的链接点击
+                $(document).on('click', 'a[href^="#"]', function(e) {
+                    e.preventDefault();
+                    var target = $(this).attr('href');
+                    if (target && target !== '#') {
+                        // 使用平滑滚动而不是页面跳转
+                        var targetElement = $(target);
+                        if (targetElement.length) {
+                            $('html, body').animate({
+                                scrollTop: targetElement.offset().top
+                            }, 500);
+                        }
+                    }
+                });
+                
+                // 禁用微信浏览器的下拉刷新
+                document.addEventListener('touchmove', function(e) {
+                    if (e.touches.length > 1) {
+                        e.preventDefault();
+                    }
+                }, { passive: false });
+                
+                // 防止微信浏览器的页面缓存问题
+                window.addEventListener('pageshow', function(e) {
+                    if (e.persisted) {
+                        window.location.reload();
+                    }
+                });
+            }
+        }
+        
+        // 执行微信浏览器处理
+        handleWeChatBrowser();
+
+      });</script>
+  </body>
+
 </html>
