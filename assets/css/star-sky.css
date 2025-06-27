@@ -1,0 +1,16 @@
+/* 星空背景样式 */
+.star-sky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #000;
+}
+
+.star {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+}
